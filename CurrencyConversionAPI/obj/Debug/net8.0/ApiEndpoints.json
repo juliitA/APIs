@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "CurrencyConversionAPI.Controllers.ConversionController",
+    "Method": "ConvertDollarToPeso",
+    "RelativePath": "api/Conversion/{dollarAmount}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dollarAmount",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Dolar.props" />
+</Project>

@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "Dolar.Controllers.QuoteController",
+    "Method": "GetQuote",
+    "RelativePath": "api/Quote",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetQuote"
+  },
+  {
+    "ContainingType": "Dolar.Controllers.QuoteController",
+    "Method": "GetSpecificQuote",
+    "RelativePath": "api/Quote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Currency",
+        "Type": "Dolar.Model.Currency",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetSpecificQuote"
+  }
+]
